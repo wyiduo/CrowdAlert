@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <div name>
+    <title>CrowdAlert</title>
+    </div>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
+    <script
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB_lcyHdc-WTQoFfvQa2Z2KFH1xAwC7mP8&callback=initAutocomplete&libraries=places&v=weekly"
+      defer
+    ></script>
+
+
+    <script src="script.js">
+    </script>
+
+    
+  </head>
+
+  <body>
+	  <div>	
+
+          
+          <div class="clearfix"></div>
+          <div name>
+
+          <header> CrowdAlert</header>
+          <footer id="footer">
+            <img src = "logo.png" alt = "logo" height = "75" width = "75">
+          </footer>
+
+          	</div>	
+	
+		</div>	
+
+    <input
+      id="pac-input"
+      class="controls"
+      type="text"
+      placeholder="Search Box"
+    />    
+    <div id="map"></div>
+
+    <div class = "form">
+      <form action="script.js" method="updateMap()">
+        <label for="amount of people">How many people are in that area?</label>
+        <input type="text" name="inputbox" value="">
+        <input type="button" name="button" value="Submit">
+  
+      </form>
+    </div>
+
+    <div class = "questionOne">
+      <form action="script.js" method="updateMap()">
+        <label for="masks"><p>Are most people wearing masks?</label>
+        <input type="button" name="button" value="Yes">
+        <input type="button" name="button" value="No">
+    </div>
+
+    <div class = "questionTwo">
+      <form action="script.js" method="updateMap()">
+        <label for="social distancing">Are people mostly social distancing?</label>
+        <input type="button" name="button" value="Yes">
+        <input type="button" name="button" value="No">
+    </div> 
+
+  </body>
+</html>

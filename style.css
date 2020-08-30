@@ -1,0 +1,178 @@
+
+{
+  box-sizing: border-box;
+}
+
+header {
+  position: fixed;
+  top: 0;
+  margin-top:0;
+  width:100%;
+  background-color: grey;
+  padding: 2%;
+  text-align: center;
+  font-size: 35px;
+  color: white;
+  font-family: Helvetica;
+
+}
+
+.name{
+  font-size: 500px;
+  font-weight: 300;
+  padding-right: 14; 
+  padding-left: 16; 
+}
+
+/* Always set the map height explicitly to define the size of the div
+       * element that contains the map. */
+#map {
+  position: absolute;
+  height: 75%;
+  width: 60%;
+  
+  bottom: 10%;
+  margin-top: 5%; /*when you open it in other tab it looks terrible  try now? it looks okay for me shouldnt the map touch the header and the footer yup changing that rn */
+  
+}
+
+/* Optional: Makes the sample page fill the window. */
+html,
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  background-color:white;
+}
+
+#description {
+  font-family: Roboto;
+  font-size: 15px;
+  font-weight: 300;
+}
+
+#infowindow-content .title {
+  font-weight: bold;
+}
+
+#infowindow-content {
+  display: none;
+}
+
+#map #infowindow-content {
+  display: inline;
+}
+
+/* Design for the search bar*/
+.controls {
+  background-color: #fff;
+  border-radius: 2px;
+  border: 1px solid transparent;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
+  box-sizing: border-box;
+  height: 40px;
+  margin-left: 17px;
+  margin-right: 17px;
+  margin-top: 10px;
+  outline: none;
+  text-overflow: ellipsis;
+}
+
+#pac-input {
+  background-color: #fff;
+  font-family: Roboto;
+  font-size: 15px;
+  font-weight: 300;
+  margin-left: 12px;
+  padding: 0 11px 0 13px;
+  text-overflow: ellipsis;
+  width: 400px;
+}
+
+#pac-input:focus {
+  border-color: #4d90fe;
+}
+
+#title {
+  color: #fff;
+  background-color: #4d90fe;
+  font-size: 25px;
+  font-weight: 500;
+  padding: 6px 12px;
+}
+
+#target {
+  width: 345px;
+}
+
+#sidebar {
+  float: right;
+  padding: 20px;
+  width: 40%;
+  background-color: #f1f1f1;
+  height: 89%; 
+}
+
+#footer {
+  position: absolute;
+  background-color: #777;
+  bottom: 0;
+  width: 100%;
+  height: 2.5rem;  
+  padding: 10px;
+  text-align: center;
+  color: white;
+
+}
+
+
+.logo {
+  display: flex;
+}
+
+.topLogo{
+  position: absolute;
+	float:left; 
+  height: 75px; 
+  width: 75px;
+	top: 10px;
+	left: 0;
+
+}
+
+.clearfix {
+
+	clear:both;
+	      
+}
+
+.form{
+  position: absolute;
+  right: 0;
+  width: 40%;
+  padding-top: 5cm;
+  text-align: center;
+  font-family: Helvetica;
+  font-size: 15px;
+}
+
+.questionOne{
+  position: absolute;
+  right: 0;
+  padding-top: 7cm;
+  width: 40%;
+  text-align: center;
+  font-family: Helvetica;
+  font-size: 15px;
+}
+
+.questionTwo{
+  position: absolute;
+  right: 0;
+  padding-top: 10cm;
+  width: 40%;
+  text-align: center;
+  font-family: Helvetica;
+  font-size: 15px;
+}
+
