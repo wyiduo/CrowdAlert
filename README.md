@@ -24,9 +24,9 @@ CrowdAlert was submitted to the Suns Out Hacks Out 2020 hackathon. More informat
 
 &nbsp;
 
-**![Demo and design of CrowdAlert](https://www.youtube.com/watch?v=-ZiAOcCKW3Q)**
+**[Demo and design of CrowdAlert](https://www.youtube.com/watch?v=-ZiAOcCKW3Q)**
 
-**![Minimum product](https://crowdalert.elianawang.repl.co/)**
+**[Minimum product](https://crowdalert.elianawang.repl.co/)**
 
 ## Credits
 
