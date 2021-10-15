@@ -34,6 +34,6 @@ Jeffrey Lin, developer
 
 Eliana Wang, developer
 
-Janet Choi, development and design
+Janet Choi, developer and designer
 
-Yiduo Wang, design
+Yiduo Wang, designer
