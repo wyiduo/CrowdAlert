@@ -22,6 +22,8 @@ When COVID-19 restrictions started to lift, there was a sudden influx of commerc
 
 CrowdAlert was submitted to the Suns Out Hacks Out 2020 hackathon. More information, demo, design, and minimum product available at https://devpost.com/software/crowdalert.
 
+&nbsp;
+
 **![Demo and design of CrowdAlert](https://www.youtube.com/watch?v=-ZiAOcCKW3Q)**
 
 **![Minimum product](https://crowdalert.elianawang.repl.co/)**
@@ -29,6 +31,9 @@ CrowdAlert was submitted to the Suns Out Hacks Out 2020 hackathon. More informat
 ## Credits
 
 Jeffrey Lin, developer
+
 Eliana Wang, developer
+
 Janet Choi, development and design
+
 Yiduo Wang, design
